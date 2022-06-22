@@ -1,0 +1,11 @@
+{
+"testFiles": "**/*.spec.js",
+"baseUrl": "http://automationpractice.com",
+"chromeWebSecurity": false,
+"defaultCommandTimeout": 12000,	
+"pageLoadTimeout": 80000,
+"retries": {
+  "runMode": 1,
+  "openMode": 0
+}
+}
