@@ -1,5 +1,5 @@
 {
-  "name": "cypress-tutorial",
+  "name": "cypress-api_tutorial",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.0.0"
+    "cypress": "^9.7.0"
   }
 }

@@ -1,18 +1,14 @@
 // cypress/integration/pages/HomePage.js
 
 var pageLocators = {
-  loginButton: '.login',
-  contactButton: '#contact-link > a'
-}
+    loginButton: '#login2',
+  }
 
-class homePage {
-
-  loginButtonWebElement() { return cy.get(pageLocators.loginButton); }
-
-  contactButtonWebElement() { return cy.get(pageLocators.contactButton); }
-
-  clickLoginButton() { return this.loginButtonWebElement().click(); }
+  class homePage {
   
-} 
-
-export default homePage;
+    loginButtonWebElement() { return cy.get(pageLocators.loginButton); }
+    clickLoginButton() { return this.loginButtonWebElement().click(); }
+    
+  } 
+  
+  export default homePage;
